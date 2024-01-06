@@ -1,9 +1,15 @@
+import "@picocss/pico";
+
 const IndexPopup = () => {
   return (
-    <main>
-      <h1>tabop</h1>
-      <button>Hi</button>
-    </main>
+    <body style={{ width: "25rem" }}>
+      <main
+        className="container-fluid"
+        style={{ paddingTop: "1rem", paddingBottom: "1rem" }}
+      >
+        <button>Create New Group</button>
+      </main>
+    </body>
   );
 };
 
